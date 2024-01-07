@@ -1,0 +1,10 @@
+rv.el - a toy RISC-V emulator for Emacs
+
+Aiming RV64GC emulation with ELF executables.
+
+It is incomplete, but capable of running simple statically linked
+Linux programs that use a few common syscalls, without heavy use of
+floating-point numbers (the implementation of which is particularly
+incomplete). dash was used to try it out during the development.
+
+Memory-mapped I/O can be added.
